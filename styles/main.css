@@ -3,6 +3,139 @@
   font-family: "Play", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar-track {
+  width: 10px;
+  background-color: rgb(189, 195, 199);
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: rgb(44, 62, 80);
+  border-radius: 2px;
+}
+
 .navbar-brand img {
   height: 50px;
+}
+
+.header-outer {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.61);
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+.back-to-top-outer {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(44, 62, 80);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 4px 4px 4px #535c68;
+}
+
+.back-to-top-outer a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.fa-solid {
+  font-size: 18px;
+  color: #ecf0f1;
+}
+
+.outer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-outer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(44, 62, 80);
+}
+
+.home-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.about-text {
+  margin-top: 10px;
+  margin-bottom: 10PX;
+  color: white;
+}
+
+.title-text {
+  color: white;
+  font-weight: bold;
+}
+
+.header-text {
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+  line-height: 80px;
+}
+
+.line {
+  border: 2px solid #eb3b5a;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info > div {
+  margin-bottom: 10px;
+}
+
+.label-about {
+  font-weight: bold;
+  width: 150px;
+  display: inline-block;
+}
+
+.feature-right img {
+  margin-top: 5px;
+}
+
+.qualification-outer {
+  width: 100%;
+  height: auto;
+  background-color: #a5b1c2;
+}
+
+.about-tittle {
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.qualifi-header {
+  color: #f7b731;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=main.css.map */
