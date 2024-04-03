@@ -126,6 +126,14 @@ body::-webkit-scrollbar {
   margin-top: 5px;
 }
 
+@media (max-width: 600px) {
+  .header-text {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    line-height: 80px;
+  }
+}
 .qualification-container {
   height: 100%;
   width: 80%;
