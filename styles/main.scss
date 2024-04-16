@@ -73,29 +73,22 @@ body::-webkit-scrollbar{
 .home-outer{
     width: 100%;
     height: auto;
-    // background-image: url('logo/head_background.jpg')
     background-size: cover;
     background-repeat: no-repeat;
-    // background-position: right;
-    // background-color:black
-    // background: rgb(255,255,255);
-    // background: linear-gradient(133deg, rgba(255,255,255,1) 14%, rgba(0,0,0,1) 62%, rgba(0,0,0,1) 80%);
      background: rgb(87,169,222);
      background: linear-gradient(110deg, rgba(87,169,222,1) 0%, rgba(45,86,145,1) 25%, rgba(0,0,0,1) 49%, rgba(0,0,0,1) 86%);
 }
 .home-outer img{
-width: 100%;
+width: auto;
 }
 .home-container{
     // border: 1px solid red;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    // justify-content: flex-start;
-    // height: 100%;
-    // width: 100%;
-    // margin: 0;
-    // margin-top: -100px;
+    width: auto;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    
 
 }
 .about-text{
@@ -133,17 +126,23 @@ width: 100%;
   }
   
 
-.feature-right img{
-    margin-top: 5px;
+// .feature-right .feature-wrapper .img{
+//     margin-top: 200px;
+//     max-width: 100%;
+//     height: auto;
     
-}
-@media(max-width:600px) {
+// }
+@media only screen and (max-width: 800px) {
     .header-text{
         font-weight: bold;
         font-size: 50px;
         color: white;
         line-height: 80px;
     }
+    .face{
+        height: 100px; 
+    }
+   
 }
 // qualification area
 .qualification-container{
@@ -184,6 +183,17 @@ width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+@media(max-width:600px) {
+    .about-tittle{
+        margin-top: 80px;
+        font-weight: bold;
+        font-size: 40px;
+        color: #e74c3c;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 }
 // qualification area
 
@@ -228,40 +238,8 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,226,232,0.5
 }
 .product-wrapper{
     margin-bottom: 80px;
-}
-.product-inner{
-    width: 80%;
-    height: 200px;
-    margin-top: 100px;
-    /* border: 1px solid red; */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-// .feature-title{
-//     color: #ED4C67;
-// }
-// .feature-outer ol{
-//     padding: 0;
-//     margin: 15px;
 
-// }
 
-// .feature-outer ol li{
-    
-//     font-style: italic;
-// }
-// .feature-right img{
-//     margin-top: 20px;
-// }
-// .feature-wrapper{
-//     /* border: 1px solid red; */
-// }
-// .feature-outer{
-//     /* border: 1px solid red; */
-//     height: 100%;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-// }
+}
+
 //skill-area

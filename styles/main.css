@@ -122,8 +122,8 @@ body::-webkit-scrollbar {
   display: inline-block;
 }
 
-.feature-right img {
-  margin-top: 5px;
+.feature-right .feature-wrapper .img {
+  margin-top: 10px;
 }
 
 @media (max-width: 600px) {
@@ -203,14 +203,4 @@ body::-webkit-scrollbar {
 
 .product-wrapper {
   margin-bottom: 80px;
-}
-
-.product-inner {
-  width: 80%;
-  height: 200px;
-  margin-top: 100px;
-  /* border: 1px solid red; */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */
