@@ -85,7 +85,7 @@ width: auto;
     // border: 1px solid red;
     height: 100%;
     width: auto;
-    // display: flex;
+    display: flex;
     // flex-direction: column;
     // justify-content: space-between;
     
@@ -132,23 +132,25 @@ width: auto;
 //     height: auto;
     
 // }
-@media only screen and (max-width: 800px) {
-    .header-text{
-        font-weight: bold;
-        font-size: 50px;
-        color: white;
-        line-height: 80px;
-    }
-    .face{
-        height: 100px; 
-    }
+// @media only screen and (max-width: 800px) {
+//     .header-text{
+//         font-weight: bold;
+//         font-size: 50px;
+//         color: white;
+//         line-height: 80px;
+//     }
+//     .face{
+//         height: 100px; 
+//     }
    
-}
+// }
 // qualification area
 .qualification-container{
     
     height: 100%;
-    width: 80%;
+    width: auto;
+    
+
     // border: 1px solid red;
     
 }
@@ -164,13 +166,22 @@ width: auto;
 }
 
 .about-tittle{
+
+
+
     margin-top: 80px;
     font-weight: bold;
     font-size: 60px;
-    color: #e74c3c;
+    color:#e74c3c;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+// @media screen and (max-width: 768px){
+//     .about-tittle{
+//         color: #8e44ad;
+//     }
+// }
 // qualification area
 .qualifi-header{
     color: #e74c3c;
@@ -186,11 +197,11 @@ width: auto;
 }
 
 @media(max-width:600px) {
-    .about-tittle{
+    .qualification-content .about-tittle{
         margin-top: 80px;
         font-weight: bold;
-        font-size: 20px;
-        color: #e74c3c;
+        font-size: 50px;
+        color:#e74c3c;
         text-align: center;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

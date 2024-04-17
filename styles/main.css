@@ -76,13 +76,13 @@ body::-webkit-scrollbar {
 }
 
 .home-outer img {
-  width: 100%;
+  width: auto;
 }
 
 .home-container {
   height: 100%;
+  width: auto;
   display: flex;
-  flex-direction: column;
 }
 
 .about-text {
@@ -122,21 +122,9 @@ body::-webkit-scrollbar {
   display: inline-block;
 }
 
-.feature-right .feature-wrapper .img {
-  margin-top: 10px;
-}
-
-@media (max-width: 600px) {
-  .header-text {
-    font-weight: bold;
-    font-size: 50px;
-    color: white;
-    line-height: 80px;
-  }
-}
 .qualification-container {
   height: 100%;
-  width: 80%;
+  width: auto;
 }
 
 .qualification-outer {
@@ -168,6 +156,16 @@ body::-webkit-scrollbar {
   margin-bottom: 50px;
 }
 
+@media (max-width: 600px) {
+  .qualification-content .about-tittle {
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #e74c3c;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
 .skill-outer-container {
   height: 100%;
   width: 80%;
