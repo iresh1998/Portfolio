@@ -223,7 +223,7 @@ body::-webkit-scrollbar {
 }
 
 .product-tittle {
-  color: #ED4C67;
+  color: #e74c3c;
   text-align: center;
 }
 
@@ -292,7 +292,6 @@ body::-webkit-scrollbar {
 }
 
 .copyright-text-outer {
-  /* height: 100px; */
   color: #ffffff;
   text-align: center;
 }
@@ -304,4 +303,21 @@ body::-webkit-scrollbar {
 
 .copyright-text-outer a:hover {
   text-decoration: underline;
+}
+
+.cet1 .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.cet1:hover .tooltiptext {
+  visibility: visible;
 }/*# sourceMappingURL=main.css.map */

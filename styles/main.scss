@@ -243,7 +243,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,226,232,0.5
 
 }
 .product-tittle{
-    color: #ED4C67;
+    color:#e74c3c;
     text-align: center;
 }
 .product-headeer{
@@ -261,6 +261,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,226,232,0.5
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .feature-title{
     color: #ED4C67;
 }
@@ -277,6 +278,35 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,226,232,0.5
 .feature-right img{
     margin-top: 20px;
 }
+
+.feature-right{
+
+}
+
+//////////////////////////
+/// 
+/// 
+// .feature-right {
+//     position: relative;
+//     width: 1000px; /* Adjust as needed */
+//     height: 1000px; /* Adjust as needed */
+//     overflow: hidden;
+// }
+
+// .zoom-image {
+//     transition: transform 0.3s ease-in-out;
+// }
+
+// .feature-right:hover .zoom-image {
+//     transform: scale(2); /* Adjust the scale factor for zoom level */
+// }
+
+
+/// 
+/// 
+/// /////////////////////
+
+
 .feature-wrapper{
     /* border: 1px solid red; */
 }
@@ -305,7 +335,6 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,226,232,0.5
     height: 200px;
 }
 .copyright-text-outer{
-    /* height: 100px; */
     color: #ffffff;
     text-align: center;
 }
@@ -318,3 +347,26 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,226,232,0.5
     text-decoration: underline;
 
 }
+
+.cet1{
+    
+}
+
+///tooolip
+.cet1 .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .cet1:hover .tooltiptext {
+    visibility: visible;
+  }
