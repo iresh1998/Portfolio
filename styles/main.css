@@ -223,7 +223,7 @@ body::-webkit-scrollbar {
 }
 
 .product-tittle {
-  color: #e74c3c;
+  color: #1B1464;
   text-align: center;
 }
 
@@ -245,7 +245,7 @@ body::-webkit-scrollbar {
 }
 
 .feature-title {
-  color: #ED4C67;
+  color: #dc3545;
 }
 
 .feature-outer ol {
@@ -298,7 +298,7 @@ body::-webkit-scrollbar {
 
 .copyright-text-outer a {
   text-decoration: none;
-  color: #ED4C67;
+  color: #dc3545;
 }
 
 .copyright-text-outer a:hover {
