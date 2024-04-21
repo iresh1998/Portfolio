@@ -197,7 +197,7 @@ body::-webkit-scrollbar {
 .product-tittle {
   margin-top: 100px;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
   color: #e74c3c;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -259,8 +259,15 @@ body::-webkit-scrollbar {
 
 .feature-right img {
   margin-top: 20px;
+  width: 500px;
 }
 
+@media (max-width: 600px) {
+  .feature-right img {
+    margin-top: 20px;
+    width: 300px;
+  }
+}
 .feature-wrapper {
   /* border: 1px solid red; */
 }

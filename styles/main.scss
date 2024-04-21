@@ -213,7 +213,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,226,232,0.5
 
     margin-top: 100px;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     color:#e74c3c;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -277,11 +277,16 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(191,226,232,0.5
 }
 .feature-right img{
     margin-top: 20px;
+    width: 500px;
 }
 
-.feature-right{
-
+@media(max-width:600px) {
+    .feature-right img{
+        margin-top: 20px;
+        width: 300px;
 }
+}
+
 
 //////////////////////////
 /// 
